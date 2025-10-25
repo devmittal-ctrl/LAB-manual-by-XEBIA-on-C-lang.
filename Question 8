@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<math.h>
+int main(){
+   int in,q,up;
+   // finding the total bill amount after applying a discount 
+   printf("pls enter the item number ");
+   scanf("%d",&in);
+   printf("enter the unit price for that item whose number is %d :",in);
+   scanf("%d",&up);
+   printf("enter the quantity for that item whose number is %d :",in);
+   scanf("%d",&q);
+   printf("your total amount for the products are %d\nFor this you got a discount of 20%% ",up*q);
+   printf("so your final bill comes out to be : %f ",(up*q)*0.98);
+   return 0;
+}
