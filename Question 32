@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+   float f;
+   char com;
+    printf("You have to choose which command to want ot run ");
+   printf("\nfor square\ts\nfor root\tr\nfor cube\tc\n");
+   scanf("%c",&com);
+   printf("enter the number ");
+   scanf("%f",&f);
+   switch(com){
+      case 's':
+      printf("the square of the %f is %f ",f,f*f);
+      break;
+      case 'r':
+      printf("the square of the %f is %f ",f,sqrt(f));
+      break;
+      case 'c':
+      printf("the square of the %f is %f ",f,f*f*f);
+      break;
+      default :
+      printf("you choose a wrong command ");
+   }
+   return 0;
+}
