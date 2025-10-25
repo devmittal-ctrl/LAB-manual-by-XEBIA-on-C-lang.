@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+   // here teacher wants to find the average of 3 students 
+   // thus we know that marks can be decimal so float 
+   float marks,sum=0;
+   for(int i=1;i<=3;i++){
+   printf("enter the matks of %d student ",i);
+   scanf("%f",&marks);
+   sum=sum+marks;
+   }
+   // now for average among three students we divide it by 3
+   printf("%.2f is the average of the marks obtained by three students",sum/3);
+    return 0;
+}
