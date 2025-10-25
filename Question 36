@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+   int a,s;
+   printf("enter the percentage got by you ");
+   scanf("%d",&a);
+   if(a>=75){
+      printf("Grade A");
+   }
+   else{
+      printf("grade b");
+   }
+   return 0;
+}
