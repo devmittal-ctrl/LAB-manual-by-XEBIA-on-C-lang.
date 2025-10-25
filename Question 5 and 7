@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include<math.h>
+int main(){
+   int i,p,b,h;
+   // checking the longest side to find the hypotunese of a right angle triangle
+   // formula is h*h = b*b + p*p;
+      printf("enter the one side ");
+      scanf("%d",&b);
+      printf("enter the second side ");
+      scanf("%d",&h);
+      printf("enter the third side ");
+      scanf("%d",&p);
+      // here we are going to check for all cases to find the longest side
+      if(h==sqrt(b*b + p*p)){
+         printf("yes its a right angle trianle \nso the %d is the longest side i.e. hypotunese ",h);
+      }
+      else if(b==sqrt(h*h + p*p)){
+         printf("yes its a right angle trianle \nso the %d is the longest side i.e. hypotunese ",b);
+      }
+      else if(p==sqrt(h*h + b*b)){
+         printf("yes its a right angle trianle \nso the %d is the longest side i.e. hypotunese ",p);
+      }
+      else {
+         printf("oops! you donot choose a right angle triangle ");
+      }
+   return 0;
+}
