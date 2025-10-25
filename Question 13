@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+  // calculating the powers of the numbers
+  int a,s,dd;
+  printf("enter the first number ");
+  scanf("%d",&a);
+  printf("enter the second number ");
+  scanf("%d",&dd);
+  s=pow(a,dd);
+  printf("here %d raised to the power %d is %d ",a,dd,s);
+   return 0;
+}
