@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+// finding the given number is even or odd 
+int a;
+printf("enter first number ");
+scanf("%d",&a);
+// here i am going to use terninary operator
+// or simply you can use if else
+a%2==0 ? printf("the given number is even") : printf("the given number is odd");
+   return 0;
+}
