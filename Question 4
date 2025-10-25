@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+   // here we are going to convert the temp which is given in input of .f to .c
+   // formula for conversion => temp-32 *(5/9)
+   float temp;
+   printf("enter the value of temperature in .F ");
+   scanf("%f",&temp);
+   // now we apply formula
+   printf("%.2f is the tempeature in .C whereas the tempeature in .F is %f ",(temp-32)*(5.0/9),temp);
+    return 0;
+}
