@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main(){
- // making a fixed repeating pattern 12345 
+ // making a fixed repeating pattern 
+/* 5 4 3 2 1
+   5 4 3 2
+ and so on */
  int n;
  printf("enter the number of times you want to print the pattern ");
  scanf("%d",&n);
