@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main(){
+   // sawping two numbers with the help of a third variable
+   int a,s,d;
+   // here a is my first varaible 
+   /* and s is my second variable 
+   and finally d is my third varaible */
+   printf("enter the value of first variable ");
+   scanf("%d",&a);
+   printf("enter the value of second variable ");
+   scanf("%d",&s);
+   // condition for using a third variable
+   d=a;
+   a=s;
+   s=d;
+   // after swapping the values
+   printf("%d is the value of first new variable after swapping \n",a);
+   printf("%d is the value of second new variable after swapping ",s);
+   return 0;
+}
