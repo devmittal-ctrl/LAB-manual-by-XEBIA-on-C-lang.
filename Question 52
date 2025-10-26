@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+   // making a programme to find the simple intrest 
+   // formula of simple intrest = principle*rate*time/100
+   int n;
+   float prin,rate,tim,amo;
+   printf("enter the number of accounts you want to check ");
+   scanf("%d",&n);
+   for(int i=1;i<=n;i++){
+      // getting the value of required sets from user
+   printf("enter the value of the principle amount ");
+   scanf("%f",&prin);
+    printf("enter the value of the rate charged on you ");
+   scanf("%f",&rate);
+    printf("enter the value of the time for kepping money ");
+   scanf("%f",&tim);
+   // computing their simple intrest 
+    amo=(prin*rate*tim)/100;
+   printf("the simple interest is %f\n",amo);
+   printf("\n");
+   }
+   return 0;
+}
