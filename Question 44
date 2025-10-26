@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+   // displaying the absolute value of the interger
+   int n;
+   printf("enter the interger ");
+   scanf("%d",&n);
+   if(n>0){ // handling the positive numbers
+      printf("the absolute value of %d is %d ",n,n);
+   }
+   else{ // handling the negative numbers
+     printf("the absolute value of %d is %d ",n,n*-1);
+   }
+      return 0;
+}
