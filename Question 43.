@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+   // checking for the smallest number among three numbers
+   int n,v,small=v;
+   // here we are going to initialize the first element as small
+   // later we put condition 
+   printf("enter the 1 number ");
+   scanf("%d",&v);
+   for(int i=2;i<4;i++){
+      printf("enter the %d number ",i);
+      scanf("%d",&n);
+      if(n<small) // condition when the number n is smaller then v
+      small=n;
+   }
+   printf("the smallest number is %d",small);
+   return 0;
+}
